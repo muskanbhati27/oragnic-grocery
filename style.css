@@ -1,0 +1,600 @@
+/* end section */
+.end_footer_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0em 1em 2em;
+}
+.endfooter_icons {
+  margin-left: 1em;
+}
+/* end section */
+/* menu section */
+.menu_nav {
+  margin: 0.2em 0.8em 0em 1em;
+}
+.menu_section {
+  border-top: 1px solid hsl(240, 14%, 93%);
+}
+.menu_ul {
+  gap: 1em;
+  font-weight: 550;
+}
+.menu_form a {
+  text-decoration: none;
+  color: hsl(0, 1%, 64%);
+}
+.menu_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+.menu_logo {
+  visibility: hidden;
+  display: none;
+}
+.nav-item:active {
+  color: red;
+}
+/* menu section */
+/* zeroheader section */
+.zeroheader_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3em;
+  margin-right: 3em;
+  color: hsl(0, 5%, 96%);
+}
+.zeroheader_section {
+  background-color: hsl(6.95deg 71.93% 55.29%);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.zeroheader_btn {
+  background-color: hsl(6.95deg 71.93% 55.29%);
+  border: 0;
+  color: hsl(0, 5%, 96%);
+}
+.zeroheader_btn:hover {
+  background-color: hsl(6.95deg 71.93% 55.29%);
+  border: 0;
+  color: hsl(7, 84%, 75%);
+}
+/* zeroheader section */
+/* header section */
+
+.header_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1em 0em 1em 0em;
+}
+
+.header_third_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1.4em;
+}
+.header_third_icon_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: hsl(84.47deg 44.98% 44.9%);
+  font-size: 1.8em;
+}
+
+/* header section */
+/* banner section */
+.home-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.home_btn {
+  background-color: hsl(84.47deg 44.98% 44.9%);
+  color: white;
+  margin-top: 2em;
+}
+.home_row {
+  width: 110%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.home_heading {
+  font-size: 4em;
+  font-weight: 550;
+}
+.img_text {
+  color: hsl(0, 0%, 96%);
+  width: 50%;
+  position: relative;
+  top: -2.2em;
+  left: 1.6em;
+}
+.home_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+}
+/* banner section */
+
+/* story section */
+.story_icon {
+  position: absolute;
+  background-color: white;
+  width: 5em;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  border-radius: 100%;
+  color: hsl(6.95deg 71.93% 55.29%);
+  border: 6px solid hsl(240deg 1.01% 80.59%);
+}
+.story_img {
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/grocery-blog-08.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.story_img:before {
+  background: #00000070;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+}
+.story_section {
+  margin: 2em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+.story_div1 h1 {
+  font-weight: 700;
+  color: hsl(0deg 0% 25.88%);
+}
+.story_div1_btn {
+  background-color: hsl(84.47deg 44.98% 44.9%);
+  margin-top: 1.4em;
+  color: #fff;
+}
+.story_div1_description {
+  margin-top: 2em;
+  color: hsl(0, 0%, 68%);
+}
+.story_div1 {
+  margin-top: 2em;
+}
+.story_div1_heading {
+  color: hsl(6.95deg 71.93% 55.29%);
+  font-size: 1.2em;
+  font-weight: 550;
+}
+/* story section */
+/* category section */
+.category {
+  border-bottom: 2px solid rgb(236, 234, 234);
+}
+.category_heading {
+  margin-top: 2em;
+}
+.category_row {
+  margin: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  gap: 3em;
+}
+.category_imgdiv1 p {
+  font-weight: 700;
+}
+.category_imgdiv2 p {
+  font-weight: 700;
+}
+.category_imgdiv1 {
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  background-color: hsl(10deg 42.86% 97.25%);
+}
+.category_imgdiv2 {
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  background-color: hsl(68.57deg 33.33% 95.88%);
+}
+
+/* category section */
+/* product section */
+.product_heading {
+  padding-top: 1.6em;
+  font-weight: 550;
+}
+.product_section {
+  background-color: hsl(0deg 33.33% 97.65%);
+}
+.product_images {
+  width: 100%;
+  object-fit: contain;
+  border-bottom: 1px solid hsl(0, 0%, 91%);
+}
+.product_row {
+  margin: 2em;
+}
+/* product section */
+/* divider section */
+
+.owl-dots {
+  display: none;
+}
+.divider_textsection {
+  background-color: hsl(6.95deg 71.93% 55.29%);
+}
+.divider_textsection p {
+  margin-top: 0.5em;
+  color: hsl(0, 0%, 97%);
+}
+
+/* divider section */
+/* card section */
+.card_counter_heading {
+  margin-top: 5em;
+  font-weight: 700;
+}
+.card_counterno_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.6em;
+}
+.card_section {
+  padding: 4em;
+  margin-top: 0.4em;
+  margin-bottom: 1em;
+}
+.counterno_border p {
+  color: hsl(60, 0%, 56%);
+}
+.counterno_border a {
+  color: hsl(6.91deg 72.05% 55.1%);
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.counterno_border {
+  border: 1px solid hsl(0, 4%, 95%);
+  border-radius: 4px;
+  width: 4.6em;
+  height: 4.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1em;
+}
+.card_first {
+  background: url("images/grocery-banner-01.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 16em;
+}
+.card_second {
+  background: url("images/grocery-banner-01.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 16em;
+  border-radius: 8px;
+}
+.card_third {
+  background: url("images/grocery-banner-01.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 16em;
+}
+.card_text_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  height: 14em;
+  width: 10em;
+  padding: 16px;
+}
+.card_a {
+  color: hsl(6.91deg 72.05% 55.1%);
+  font-weight: 550;
+}
+.card_heading {
+  font-weight: 550;
+}
+.card_btn {
+  background-color: hsl(84.47deg 44.98% 44.9%);
+  color: white;
+}
+/* card section */
+/* slider section */
+.slider_section {
+  background-color: hsl(0deg 33.33% 97.65%);
+  padding-bottom: 7em;
+}
+.slider_item {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.slider_heading {
+  padding-top: 2em;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 5em;
+}
+.owl-nav button.owl-next {
+  right: 5em;
+}
+.owl-carousel .owl-nav button.owl-next {
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  color: hsl(6.91deg 72.05% 55.1%);
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  color: hsl(6.91deg 72.05% 55.1%);
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.38) !important;
+}
+.owl-nav button:focus {
+  outline: none;
+}
+.slider_icon {
+  background-color: hsl(6.91deg 72.05% 55.1%);
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border: 8px solid white;
+}
+.slider_icon_center {
+  background-color: hsl(6.91deg 72.05% 55.1%);
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border: 8px solid white;
+}
+.slider_icon_div {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  margin-top: 4em;
+}
+.silder_p {
+  width: 42%;
+  margin: auto;
+  text-align: center;
+  color: hsl(40, 1%, 59%);
+  font-size: 0.9em;
+  margin-top: 1.6em;
+}
+.slider_div3 {
+  margin-top: 3em;
+  font-weight: 550;
+  text-align: center;
+}
+
+/* slider section */
+
+/* suscribe section */
+.suscribe_section {
+  background: url("images/grocery-newsletter-img.webp");
+  margin: 3em;
+  margin-bottom: 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: white;
+  position: relative;
+  top: -7em;
+}
+.suscribe_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.suscribe_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1em;
+}
+.suscribe_btn {
+  height: 2.5em;
+  border: 0;
+  border-radius: 0px 10px 10px 0px;
+}
+.suscribe_input {
+  padding: 16px;
+  width: 20em;
+  height: 3em;
+  border: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.suscribe_div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* suscribe section */
+/* Blog section */
+.blog_images {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.blog_heading {
+  margin-top: 2em;
+  padding: 16px;
+}
+.blog_heading h1 {
+  padding: 16px;
+  font-weight: 700;
+  margin-top: -2em;
+}
+.blog_row {
+  padding: 3em;
+}
+.blog_button {
+  width: 14%;
+  margin: auto;
+  margin-bottom: 5em;
+}
+/* Blog section */
+/* service section */
+.secrvices_section {
+  background-color: hsl(0deg 33.33% 97.65%);
+}
+.secrvices_section p {
+  color: hsl(40, 1%, 59%);
+}
+.secrvices_row {
+  padding: 3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.service_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.services_icon {
+  color: hsl(6.91deg 72.05% 55.1%);
+  width: 8em;
+  height: 4em;
+  font-size: 1.1em;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* service section */
+/* footer section  */
+.footer_section {
+  background-color: hsl(0deg 33.33% 97.65%);
+  border-top: 1px solid hsl(45deg 2.15% 63.53%);
+}
+.footer_container {
+  color: hsl(40, 1%, 59%);
+  padding: 16px;
+}
+.footer_row {
+  margin: 2em;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+.footer_ul li {
+  margin-top: 0.6em;
+}
+.footer_heading {
+  color: hsl(6.91deg 72.05% 55.1%);
+  font-weight: 550;
+  margin-bottom: 1em;
+}
+.footer_div1_time {
+  color: hsl(6.91deg 72.05% 55.1%);
+  font-weight: 550;
+}
+.footer_up_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 2em;
+}
+.footer_up_icon {
+  background-color: hsl(6deg 58.82% 93.33%);
+  width: 2.2em;
+  height: 2.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px 6px 0px 0px;
+}
+
+/* footer section  */
